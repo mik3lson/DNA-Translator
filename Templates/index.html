@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNA to Protein Translator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <h1>DNA to Protein Translator</h1>
+    <form method="POST" action="/process">
+        <label for="dna_sequence">Enter DNA Sequence:</label>
+        <input type="text" id="dna_sequence" name="dna_sequence" required>
+        <button type="submit">Translate</button>
+    </form>
+    
+    {% if result %}
+    <h2>Translation Result:</h2>
+    <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>
