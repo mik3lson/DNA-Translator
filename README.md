@@ -20,3 +20,4 @@ This Flask-based web application processes DNA sequences and simulates RNA trans
 
 - Python 3.7 or higher  
 - Flask 2.x  
+
