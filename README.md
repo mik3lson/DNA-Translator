@@ -1,6 +1,15 @@
 # DNA to protein sequence Translator
 
-This Flask-based web application processes DNA sequences and simulates RNA transcription and protein translation. It validates the DNA sequence, identifies the start codon, groups the RNA sequence into codons, and translates it into the corresponding protein sequence based on a codon dictionary
+This Flask-based web application processes DNA sequences and simulates RNA transcription and protein translation. 
+It validates the DNA sequence, identifies the start codon, groups the RNA sequence into codons, and translates it into the corresponding protein sequence based on a codon dictionary. 
+
+
+## Principle
+This is base on the central dogma of molecular biology i.e the transfer of genetic information from DNA to RNA and finally to proteins. The sequence of DNA is represented by letters A,T,G,C for the neuclotides Adenine, Thymine, Guanine and Cytosine respective. RNA on the otherhand is represented by A,T,G,U indicating Adenine, Thymine, Guanine and **Uracil** respectively. 
+![central dogma](https://github.com/mik3lson/DNA-Translator/blob/main/static/central%20dogma.png)
+
+During Trancription DNA sequence is converted RNA sequence , subsequently the RNA sequences are converted to Protein (sequence of amino acids) through a process called Translation. Scientists and researchers have long investigated the DNA from an organism's genome to determine the likelihood of the organism to produce a specific protein of interest. Tools like this aid researchers and biologist in achieveing this goal.
+
 
 ## Features
 
@@ -21,3 +30,4 @@ This Flask-based web application processes DNA sequences and simulates RNA trans
 - Python 3.7 or higher  
 - Flask 2.x  
 
+## project structure
