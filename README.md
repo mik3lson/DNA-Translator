@@ -33,3 +33,34 @@ During Trancription DNA sequence is converted RNA sequence , subsequently the RN
 - Flask 2.x  
 
 ## project structure
+```
+
+├── templates/
+|   └── index.html
+├── static/
+│   └── css/
+|          └── index.css
+├── requirements.txt
+├── app.py
+└── README.md
+```
+
+
+## Set up 
+
+Clone the repository
+```bash
+git clone git@github.com:mik3lson/DNA-Translator.git
+cd DNA-Translator
+```
+
+Create a virtual environment
+```bash
+python m venv .venv
+.venv/Scripts/activate
+```
+
+Install dependencies
+```bash
+pip install requirements.txt
+```bash
